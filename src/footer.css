@@ -1,0 +1,64 @@
+nav,
+ul,
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.footer {
+    padding-top: 30px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.footer>nav {
+    padding: 0px 30px;
+}
+
+.footer>nav>ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 2px 5px;
+}
+
+.footer>nav>ul>li {
+    padding: 3px 0px 3px 0px;
+}
+
+.country {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+}
+
+.country>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 2px;
+    justify-content: center;
+}
+
+.country>ul>li {
+    padding: 10px 10px 10px 10px;
+}
+
+.team-name {
+    position: relative;
+    padding: 10px 0 20px 0;
+    text-align: center;
+    /* font-size: 1.5rem; */
+    background-color: #131a22;
+    color: rgb(228, 222, 222);
+
+}
+
+.heart {
+    content: "\2764";
+    color: red;
+}
